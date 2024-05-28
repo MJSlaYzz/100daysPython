@@ -51,7 +51,6 @@ print("Your name has " + new_num_char + " characters.")
 # Parentheses ()
 # Exponts 2 ** 3
 # Multiplication 2 * 43
-
 # Division 10 / 4
 # Addition 8 + 3
 # Subtraction 6 - 4
@@ -103,3 +102,12 @@ print(f"your score is {score}, your height is {height}, your winning is {isWinni
 print(round(3360 / 100),2)        # output = 34.2
 # To
 print("{:.2f}".format(3360 / 100))  # output = 33.60
+
+# using math.ceil() Method
+# The math.ceil() method rounds a number UP to the nearest integer, if necessary, and returns the result.
+import math
+print(math.ceil(6.1)) # ourput = 7
+
+# using math.floor() Method
+# The math.ceil() method rounds a number Down to the nearest integer, if necessary, and returns the result.
+print(math.floor(6.9)) # ourput = 6
