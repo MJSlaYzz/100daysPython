@@ -42,7 +42,7 @@ blanksList = list(blanks)
 print(logo + "\n")
 print("You can type \'@\' to see the Hint!")
 print(blanksList)
-#print(f"The Choosen word is: {chosen_word}")
+#print(f"The Chosen word is: {chosen_word}")
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 while lives > 0:
     guess = input("Please guess a letter: ").lower()
@@ -69,9 +69,8 @@ while lives > 0:
     if letterExisted:
       print("Letter Already used, please type another letter.")
     else:
-      if guess != '@':
+      if guess != '@' and guess_was_right:
         print("You guessed it right!")
-    print(stages[lives])
     print(blanksList)
     if not guess_was_right and guess != '@':
         lives -= 1
@@ -79,7 +78,8 @@ while lives > 0:
             print(f"Wrong guess, {lives} lives left")
         else:
             print(f"{lives} lives left, You Lost!")
-            print(f"The Choosen word is: {chosen_word}")
+            print(f"The Chosen word is: {chosen_word}")
+    print(stages[lives])
     if blanks == chosen_word:
         print("You Win!")
         break
