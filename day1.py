@@ -8,7 +8,7 @@ print("Hello World!")
 # that line will cause an error because it includes "double quotes", and the way to deal with that is :
 # 1st way: use single Quotes.
 print('She said: "Hello" and then left.')
-# 2st way: use excape backslash (\)
+# 2st way: use escape backslash (\)
 print("She said: \"Hello\" and then left.")
 
 # A way to start a new line by using \n.
@@ -34,7 +34,7 @@ print(num1 + num2)
 
 #You can use len(" ") in order to get the length of the text inside the double quotes.
 numOfLetters = len("Mostafa")
-print("the length of the name Mostaafa is: " + str(numOfLetters) + " Letters.")
+print("the length of the name Mostafa is: " + str(numOfLetters) + " Letters.")
 
 #len() only works with strings.
 print(len(input("Write any word to get the length of it: ")))

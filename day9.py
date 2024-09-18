@@ -5,32 +5,32 @@
 # Dictionaries
 # A dictionary is a collection of key-value pairs, where each key is unique and is used to retrieve its corresponding value.
 # {Key: Value}
-programming_dictinary = {
-    "Bug": "An error in a program that prevents the progtram from running as expected.",
+programming_dictionary = {
+    "Bug": "An error in a program that prevents the program from running as expected.",
     "Function": "A piece of code that you can easily call over and over again.",
 }
 # Retrieving items from the Dictionary:
 # you need to right the key in it's right data type
-print(programming_dictinary["Bug"]) # and you will get the value for that Key
+print(programming_dictionary["Bug"]) # and you will get the value for that Key
 
 # Adding new items to the Dictionary.
-programming_dictinary["Loop"] = "The action of doing something over and over again."
-print(programming_dictinary)
+programming_dictionary["Loop"] = "The action of doing something over and over again."
+print(programming_dictionary)
 
 # Creating an empty dictionary
 empty_dictionary = {}
 
 # Wipe and existing dictionary
-#programming_dictinary = {}
-#print(programming_dictinary)
+#programming_dictionary = {}
+#print(programming_dictionary)
 
 # Edit an item in a dictionary
-programming_dictinary["Bug"] = "A moth in your computer."
+programming_dictionary["Bug"] = "A moth in your computer."
 
 # Loop through a dictionary
 # in loops you don't get key and the value printed but you only get the key
-for key in programming_dictinary:
-    print(key + ": "+ programming_dictinary[key])
+for key in programming_dictionary:
+    print(key + ": "+ programming_dictionary[key])
 
 
 # Nesting
@@ -67,7 +67,7 @@ travel_log = {
     "Germany": {"cities_visited":["Berlin", "Hamburg", "Stuttgard"], "total_visits": 42}
 }
 # Retrieving items from that Dictionary:
-print(travel_log["France"]["cities_visited"][0]) # to get date of a specifc item in the list inside the dictionary.
+print(travel_log["France"]["cities_visited"][0]) # to get date of a specific item in the list inside the dictionary.
 print(travel_log["France"]["total_visits"])
 # you can nest a list in another list but it's not useful because the way the data is structured.
 ["A", "B",["C", "D"]]
@@ -86,7 +86,7 @@ travel_log_list = [
     }
 ]
 # Retrieving items from that List:
-print(travel_log_list[0]["cities_visited"][2]) # to get date of a specifc item in the list inside a dictionary inside a list.
+print(travel_log_list[0]["cities_visited"][2]) # to get date of a specific item in the list inside a dictionary inside a list.
 
 ## Adding a new nested dictionary in a list by using the key word append.
 travel_log_list.append({"country": "Egypt", 

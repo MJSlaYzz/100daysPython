@@ -19,12 +19,12 @@ def greet_with_name(name):
 myName = input("What is your name?\n")
 greet_with_name(myName)
 print("------------------")
-# Functions with mroe than 1 input
+# Functions with more than 1 input
 def greet_with_two_parameters(name, location):
     print(f"Hello, {name}")
     print("How are you doing?")
     print(f"What is it like in {location}?")
-# Positional Arguments is verry important, Arguments position should match the position of the parameters
+# Positional Arguments is very important, Arguments position should match the position of the parameters
 greet_with_two_parameters("Mostafa ", "Egypt")
 print("------------------")
 # we can avoid this issue by using keyword Arguments
